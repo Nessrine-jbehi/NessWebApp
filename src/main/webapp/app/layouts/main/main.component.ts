@@ -7,6 +7,13 @@ import { AccountService } from 'app/core/auth/account.service';
 @Component({
   selector: 'jhi-main',
   templateUrl: './main.component.html',
+  styles: [
+    `
+      .card {
+        background-color: #f6faff;
+      }
+    `,
+  ],
 })
 export class MainComponent implements OnInit {
   constructor(private accountService: AccountService, private titleService: Title, private router: Router) {}

@@ -1,0 +1,29 @@
+.content-body {
+  background-color: #f6faff;
+}
+
+.divTitle {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-left: #ff8200 5px solid;
+}
+
+.reportTitle {
+  font-size: 20px;
+  margin-left: -10px;
+  font-family: sans-serif;
+}
+
+.btnSend {
+  color: white;
+  width: 100%;
+  background-color: #ff8200;
+  border-radius: 0.75rem !important;
+  font-family: sans-serif;
+}
+
+input,
+textarea {
+  border-radius: 0.75rem !important;
+  font-family: sans-serif;
+}
