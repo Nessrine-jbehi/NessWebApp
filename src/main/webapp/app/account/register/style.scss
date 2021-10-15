@@ -32,6 +32,10 @@ textarea {
   display: flex !important;
 }
 
+.uploadImage input {
+  display: none;
+}
+
 .btn-upload {
   color: white;
   width: 20px;
