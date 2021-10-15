@@ -25,6 +25,18 @@
           </textarea>
         </div>
 
+        <div class="avatar-list">
+          <div class="uploadImage">
+            <div class="avatar-edit">
+              <input type="file" id="imageUpload" accept=".png, .jpg, .jpeg" #fileInput (change)="uploadFile($event)" />
+            </div>
+            <button type="button" class="btn btn-upload"><span>+</span></button>
+          </div>
+          <div class="avatar-preview" *ngFor="let imageUrl of urlFilesList">
+            <div id="imagePreview" [style.backgroundImage]="'url(' + imageUrl + ')'"></div>
+          </div>
+        </div>
+
         <button type="submit" class="btn btnSend" data-cy="submit">Send</button>
       </form>
     </div>
