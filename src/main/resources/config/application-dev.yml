@@ -33,8 +33,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:h2:mem:nesswebapp;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
-    username: NessWebApp
-    password:
+    username: Nessrine
+    password: Ness@1995
     hikari:
       poolName: Hikari
       auto-commit: false
